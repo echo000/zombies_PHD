@@ -12,8 +12,8 @@ Thank you based DTZxPorter for Wraith
 
 - Copy the gsc files to your root/usermaps/mapname/scripts/zm folder
   - [zm_overrides.gsc](Scripts/zm_overrides.gsc)
-  - [zm_perk_phdflopper.gsc](Scripts/_zm_perk_phdflopper.gsc)
-  - [zm_perk_phdflopper.csc](Scripts/_zm_perk_phdflopper.csc)
-  - [zm_perk_phdflopper.gsh](Scripts/_zm_perk_phdflopper.gsh)
+  - [\_zm_perk_phdflopper.gsc](Scripts/_zm_perk_phdflopper.gsc)
+  - [\_zm_perk_phdflopper.csc](Scripts/_zm_perk_phdflopper.csc)
+  - [\_zm_perk_phdflopper.gsh](Scripts/_zm_perk_phdflopper.gsh)
 - Add ``#using scripts\zm\zm_overrides;`` beneath ``#using scripts\zm\_zm_zonemgr;`` in your zm_mapname.gsc, located in the same folder.
 - Add the line ``level.overridePlayerDamage = &zm_overrides::player_damage_override;`` inside function main()
