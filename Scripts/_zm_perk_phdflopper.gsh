@@ -1,4 +1,4 @@
-// DEADSHOT SETTINGS
+// PhD SETTINGS
 //
 
 #define PHD_PERK_COST						2000
