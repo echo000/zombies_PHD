@@ -33,7 +33,7 @@
 #insert scripts\zm\_zm_utility.gsh;
 #insert scripts\zm\_zm_laststand.gsh;
 
-#namespace zm_deaths_stuff;
+#namespace zm_overrides;
 
 function player_damage_override( eInflictor, eAttacker, iDamage, iDFlags, sMeansOfDeath, weapon, vPoint, vDir, sHitLoc, psOffsetTime )
 {
