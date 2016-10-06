@@ -29,7 +29,7 @@
 
 REGISTER_SYSTEM( "zm_perk_phdflopper", &__init__, undefined )
 
-// DEAD SHOT ( DEADSHOT DAIQUIRI )
+// PhD Flopper
 
 //-----------------------------------------------------------------------------------
 // setup
@@ -79,6 +79,7 @@ function phd_set_clientfield( state )
 
 function phd_perk_machine_setup( use_trigger, perk_machine, bump_trigger, collision )
 {
+//Dont have the PhD sounds so this is using deadshots
 	use_trigger.script_sound = "mus_perks_deadshot_jingle";
 	use_trigger.script_string = "deadshot_perk";
 	use_trigger.script_label = "mus_perks_deadshot_sting";
