@@ -75,7 +75,7 @@ function main()
 	level.pathdist_type = PATHDIST_ORIGINAL;
     
     //Overriding the player damage function to our custom one. This allows the PhD damage reduction
-	level.overridePlayerDamage = &zm_deaths_stuff::player_damage_override;
+	level.overridePlayerDamage = &zm_overrides::player_damage_override;
 }
 
 function usermap_test_zone_init()
