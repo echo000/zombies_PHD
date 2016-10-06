@@ -8,7 +8,7 @@ Thank you based DTZxPorter for Wraith
 
 # How to use
 - Firstly, you will need to use Wraith(Thank you Porter) to extract the models for PhD Flopper.
-- Inside zm_perk_phdflopper.gsh, change the defined variables: PHD_MACHINE_DISABLED_MODEL and PHD_MACHINE_ACTIVE_MODEL to the names of the models you have imported.
+- Inside zm_perk_phdflopper.gsh, change the defined variables: ``PHD_MACHINE_DISABLED_MODEL`` and ``PHD_MACHINE_ACTIVE_MODEL`` to the names of the models you have imported.
 
 - Copy the gsc files to your root/usermaps/mapname/scripts/zm folder
   - [zm_overrides.gsc](Scripts/zm_overrides.gsc)
