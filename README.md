@@ -1,5 +1,8 @@
 # PhD flopper's ignore explosive and falling damage for Black Ops 3 Mod tools
 
+# Note
+Just to note, with the current state of the mod tools, adding the perk icon in is a little complex, so I've not put that in this
+
 # Credits
 Thank you based DTZxPorter for Wraith
 
