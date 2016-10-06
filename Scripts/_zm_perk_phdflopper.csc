@@ -54,17 +54,4 @@ function phd_code_callback_func()
 
 function player_phd_perk_handler(localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump)
 {
-	if ( !self IsLocalPlayer() || IsSpectating( localClientNum, false ) || ( (isdefined(level.localPlayers[localClientNum])) && (self GetEntityNumber() != level.localPlayers[localClientNum] GetEntityNumber())) )
-	{
-		return;
-	}
-	
-	if(newVal)
-	{
-		self UseAlternateAimParams();
-	}
-	else
-	{
-		self ClearAlternateAimParams();
-	}
 }
