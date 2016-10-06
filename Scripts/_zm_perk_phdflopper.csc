@@ -19,7 +19,7 @@
 
 REGISTER_SYSTEM( "zm_perk_phdflopper", &__init__, undefined )
 
-// DEAD SHOT ( PHD FLOPPER )
+// PHD FLOPPER
 	
 function __init__()
 {
